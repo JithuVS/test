@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <div
+      className="Container"
+    >
+      <div
+        className="item"
+      >
+        <h3
+          id="dom"
+        >
+          Dom/Props/Statee
+        </h3>
+        <Dom
+          learn="Jest"
+        >
+          <section>
+            <div
+              className="margin"
+            >
+              Learn
+            </div>
+            <div
+              data-test="data"
+            >
+              <span
+                key="0.3900899859466733"
+              >
+                Jest
+                 
+              </span>
+            </div>
+            <br />
+            <br />
+            <div
+              onClick={[Function]}
+            >
+              <button
+                className="button"
+                data-test="css"
+              >
+                CSS
+              </button>
+              <button
+                className="button"
+              >
+                HTML
+              </button>
+              <button
+                className="button"
+              >
+                React
+              </button>
+              <button
+                className="button"
+              >
+                Redux
+              </button>
+            </div>
+          </section>
+        </Dom>
+      </div>
+      <div
+        className="item"
+      >
+        <h3
+          data-test="counter"
+        >
+          Counter/Simulate
+        </h3>
+        <Counter>
+          <div
+            className="app"
+          >
+            <div>
+              <div>
+                <h1
+                  data-test="count"
+                >
+                  0
+                </h1>
+              </div>
+              <div>
+                <button
+                  data-test="decrement"
+                  onClick={[Function]}
+                  title="-"
+                >
+                  -
+                </button>
+                <button
+                  data-test="increment"
+                  onClick={[Function]}
+                  title="+"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+        </Counter>
+      </div>
+      <div
+        className="item"
+      >
+        <h3>
+          Reducer
+        </h3>
+        <Reducer>
+          <div>
+            <section>
+              <form
+                className="block"
+              >
+                <input
+                  className="fields"
+                  data-test="post-title"
+                  id="title"
+                  placeholder="Title"
+                  type="text"
+                />
+                 
+                <br />
+                <br />
+                <textarea
+                  className="fields"
+                  data-test="post-comment"
+                  id="comment"
+                  placeholder="Comment"
+                />
+                <br />
+                <button
+                  data-test="post-button"
+                  onClick={[Function]}
+                >
+                  submit
+                </button>
+              </form>
+              <hr />
+              <section>
+                <div
+                  data-test="list-first"
+                  id="1"
+                  key="1"
+                  onClick={[Function]}
+                >
+                  first
+                  comment
+                </div>
+              </section>
+            </section>
+          </div>
+        </Reducer>
+      </div>
+      <div
+        className="item"
+      >
+        <h3>
+          Redux
+        </h3>
+        <Provider
+          store={
+            Object {
+              "@@observable": [Function],
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+            }
+          }
+        >
+          <Post>
+            <div>
+              <section>
+                <form
+                  className="block"
+                >
+                  <input
+                    className="fields"
+                    data-test="post-title"
+                    id="title"
+                    placeholder="Title"
+                    type="text"
+                  />
+                   
+                  <br />
+                  <br />
+                  <textarea
+                    className="fields"
+                    data-test="post-comment"
+                    id="comment"
+                    placeholder="Comment"
+                  />
+                  <br />
+                  <button
+                    data-test="post-button"
+                    onClick={[Function]}
+                  >
+                    submit
+                  </button>
+                </form>
+                <hr />
+                <section>
+                  <div
+                    data-test="list-first"
+                    id="1"
+                    key="1"
+                    onClick={[Function]}
+                  >
+                    first
+                    comment
+                  </div>
+                </section>
+              </section>
+            </div>
+          </Post>
+        </Provider>
+      </div>
+      <div
+        className="item"
+      >
+        <h3>
+          Async/Axios/Mock
+        </h3>
+        <Axios>
+          <section>
+            <input
+              className="fields"
+              id="username"
+              type="text"
+            />
+            <button
+              onClick={[Function]}
+            >
+              Submit
+            </button>
+            <hr />
+            <ul
+              className="left"
+            />
+          </section>
+        </Axios>
+      </div>
+      <div
+        className="item"
+      >
+        <h3>
+          Misc
+        </h3>
+        <Misc>
+          <div
+            className="left"
+          >
+            <ul>
+              <li>
+                Debug: "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache"
+              </li>
+              <br />
+              <li>
+                Hooks: jest.fn(), jest-react-hooks-shallow
+              </li>
+              <br />
+              <li>
+                extension: test, spec, __tests__
+              </li>
+              <br />
+              <li>
+                E2E jest-puppeteer
+              </li>
+              <br />
+            </ul>
+          </div>
+        </Misc>
+      </div>
+    </div>
+  </div>
+</App>
+`;
